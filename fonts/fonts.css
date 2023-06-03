@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1400px) {
+    .main-container{
+      background-image:url("../Img/hero-image.jpg");
+      height: 500px;
+      width: 100%;
+      background-size:cover
+      
+    }
+    
+  }
+
+  @media  (max-width: 768px) {
+    .main-container{
+      background-image:url("../Img/hero-image-mobile.jpg");
+      height: 350px;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: left top;
+      
+    }
+    .textPosition{
+        display: none;
+
+    }
+    .card-head img{
+        width:100%;
+    }
+    .right-img img {
+        height: 100%;
+
+    }
+    
+  }
+  .hero-image-heading{
+    font-size:55px;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+.textPosition{
+    position: absolute;
+    top:160px;
+    right:160px;
+    color:#ffffff;
+
+}
+.hero-desc{
+    width:360px;
+    font-family:sans-serif;
+    text-align: center;
+    
+}
+.middile{
+ margin-top:100px
+}
